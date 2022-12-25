@@ -14,6 +14,6 @@ app
  
 sequelize.initDb()
 
-
+git 
 
 app.listen(port, () => console.log(`notre application Node est demarré sur hhtp://localhost:${port}`))
