@@ -1,6 +1,7 @@
 const express = require('express')
 const favicon = require('serve-favicon')
 const sequelize = require('./src/db/sequelize')
+const morgan = require('morgan')
 
 const app = express()
 const port = process.env.PORT || 3000
