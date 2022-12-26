@@ -16,11 +16,14 @@
     "jsonwebtoken": "^9.0.0",
     "mariadb": "^3.0.2",
     "mysql2": "^2.3.3",
-    "node": "18.12.1",
+    "node": "^18.12.1",
     "sequelize": "^6.28.0",
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
