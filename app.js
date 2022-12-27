@@ -14,7 +14,7 @@ app
 sequelize.initDb()
 
 app.get('/', (req, res) => {
-    res.json('hello heroku ! :D')
+    res.json('hello heroku !')
 })
 
 require('./src/routes/findAllPokemons')(app)
