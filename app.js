@@ -13,7 +13,7 @@ app
 
 sequelize.initDb()
 
-app.get('/', (req, res) => {
+//app.get('/', (req, res) => {
     res.json('hello heroku !')
 })
 
@@ -22,7 +22,7 @@ require('./src/routes/findPokemonByPk')(app)
 require('./src/routes/createPokemon')(app)
 require('./src/routes/updatePokemon')(app)
 require('./src/routes/deletePokemon')(app)
-require('./src/routes/login')(app)
+// require('./src/routes/login')(app)
 
 // la gestion des erreurs
 app.use(({res}) => {
