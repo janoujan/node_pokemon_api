@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       unique: {
         msg: 'le nom est déja pris'
     },
-      validate: {
+     validate: {
         notEmpty: {msg: 'Le nom ne peut pas être vide'},
         notNull: {msg: 'le nom est une propriété requise.'}
     },
